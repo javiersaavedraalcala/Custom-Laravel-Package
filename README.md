@@ -1,5 +1,5 @@
 # Custom laravel package
-This is a project to use as a guide for creating Laravel packages. It includes everything you need to create your own package
+This is a project to use as a guide for creating Laravel packages. It includes everything you need to create your own package, includes Models, Migrations, Translations and TDD.
 
 ## Files
 **javiersaavedra**: Inside this repository is the package code
