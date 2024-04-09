@@ -4,4 +4,4 @@ This is a project to use as a guide for creating Laravel packages. It includes e
 ## Files
 **javiersaavedra/custom-package**: Inside this repository is the package code, check it out.
 
-**package-tester**: This is a laravel project for test the package.
+**package-tester**: This is a laravel project for test the package. 
