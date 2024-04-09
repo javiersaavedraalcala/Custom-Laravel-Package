@@ -7,4 +7,4 @@ This is a project to use as a guide for creating Laravel packages. It includes e
 **package-tester**: This is a laravel project for test the package. 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE.md)
