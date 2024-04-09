@@ -1,0 +1,38 @@
+{
+    "name": "javiersaavedra/custom-package",
+    "description": "This is a template for custom packages",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "javiersaavedra"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JavierSaavedra\\CustomPackage\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JavierSaavedra\\CustomPackage\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JavierSaavedra\\CustomPackage\\CustomPackageServiceProvider",
+                "JavierSaavedra\\CustomPackage\\RouteServiceProvider"
+            ],
+            "aliases": {
+                "CustomPackage": "JavierSaavedra\\CustomPackage\\Facades\\CustomPackage"
+            }
+        }
+    }
+}
