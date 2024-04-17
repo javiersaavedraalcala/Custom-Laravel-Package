@@ -8,3 +8,4 @@ This is a project to use as a guide for creating Laravel packages. It includes e
 
 ## License 
 [MIT](./LICENSE.md)
+ 
